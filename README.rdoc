@@ -1,0 +1,32 @@
+= CamoImageTag
+
+This plugin makes it easy to have your non-HTTPS image tags rewritten to take advantage of a {Camo}[https://github.com/atmos/camoi] proxy
+
+== Installation
+
+To use it, add it to your Gemfile:
+
+  gem 'camo_image_tag'
+
+== Configuration
+
+You should specify two environment variables to tell Rails where to find your Camo proxy.
+
+  CAMO_KEY
+  CAMO_HOST
+
+If you do not specify them, they will use the {Camo defaults}[https://github.com/atmos/camo/blob/master/test/proxy_test.rb].
+
+== Testing
+
+Camo Image Tag uses RSpec for its test coverage. Inside the gem
+directory, you can run the specs for Ruby on Rails 3.x with:
+
+  rake spec
+
+== Author
+
+* Jason Garber
+
+Copyright (c) 2012 Jason Garber (http://jasongarber.com/), released under the MIT license
+
