@@ -12,10 +12,10 @@ To use it, add it to your Gemfile:
 
 You should specify two environment variables to tell Rails where to find your Camo proxy.
 
-  CAMO_KEY
-  CAMO_HOST
+  CAMO_KEY=0x24FEEDFACEDEADBEEFCAFE
+  CAMO_HOST=http://localhost:8081
 
-If you do not specify them, they will use the {Camo defaults}[https://github.com/atmos/camo/blob/master/test/proxy_test.rb].
+If you do not specify them, they will use the Camo defaults (above). You'll probably want to change these for a production app. Make sure your host uses https, since that's the whole point.
 
 == Testing
 
