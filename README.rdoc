@@ -28,5 +28,5 @@ directory, you can run the specs for Ruby on Rails 3.x with:
 
 * Jason Garber
 
-Copyright (c) 2012 Jason Garber (http://jasongarber.com/), released under the MIT license
+Copyright (c) 2012 Jason Garber (http://jasongarber.com/). Released under the MIT license
 
